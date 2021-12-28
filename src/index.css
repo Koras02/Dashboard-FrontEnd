@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding:0;
+  text-decoration:none;
+  scroll-behavior:smooth;
+  color: var(--font-color);
+}
+
+
+:root {
+  --font-color:#141a1e;
+
+  --background-color:#fff;
+
+}
+
+[data-theme="dark"] {
+  --font-color:#fff;
+
+  --background-color:#141a1e;
+
+}
+
+html {
+  font-size: 100%;
+  height:100%;
+}
+
+body{
+  background: var(--background-color);
+  color:var(--font-color);
+  font-family: Avenir Next, Arial, sans-serif;
+  line-height: 1.3975;
+  overflow-x:hidden;
+  overflow-y:auto;
+
+}
+
+.bg-color  {
+  height:400px;
+}
+
+.col-lg-4 {
+   flex: 0 0 auto;
+   width: 33.333333%;
+}
+
+a {
+  color:#fff;
+
+}
+p {
+  color:#fff;
+}
+
+form {
+  display:flex;
+}
+
+/* Tablet 사이즈 Mobile 사이즈 */
+/* @media screen and (max-width: 1000px) {
+  .bg-color {
+    background: green;
+    margin:0 auto;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+} */
+
+/*  max-width 600px 보다 작아지면 바뀜 그 이상 red */
+/*  css 화면에 해상도에 따라 다른 css가 먹히게 사용  */
+/* @media screen and (max-width: 600px) {
+    .bg-color  {
+      background: yellow;
+    }
+
+    .col-sm-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+} */

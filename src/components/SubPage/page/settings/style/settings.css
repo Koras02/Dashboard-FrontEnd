@@ -1,0 +1,238 @@
+.settings {
+    width:100%;
+    padding-bottom:32px;
+    flex: 1 1;
+
+}
+
+.settings > .top  {
+    width:100%;
+    max-width:1200px;
+    border-bottom:1px solid #2c3a43;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+
+.settings > .top  > .top_title {
+    max-height: 56px;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+}
+.settings > .top  > .top_title  > .tap_container {
+    width: 100%;
+    display:grid;
+    grid-template-columns: min-content minmax(100px, min-content);
+    overflow: hidden;
+    white-space:nowrap;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+
+.settings > .profile {
+    display:flex;
+    flex-direction: column;
+}
+
+.settings > .profile > .profile_top {
+    width:100%;
+    max-width:1200px;
+    margin-bottom:16px;
+    margin: 0 auto;
+    displaY:flex;
+    flex-direction: column;
+    font-size:24px;
+    font-weight: 500;
+
+}
+.settings > .profile > .profile_bottom {
+    width:100%;
+    margin: 0 auto;
+    max-width:1200px;
+    box-sizing: border-box; 
+    display:flex;
+    align-items: center;
+}
+
+.settings > .profile > .profile_bottom > .profile_bottom_blockie  {
+    width:60px;
+    height: 60px;
+    box-shadow: 0 0 0 2px #2c3a43;
+    cursor:pointer;
+    background-size:cover;
+    background-position: 50%;
+    position:relative;
+
+    border-radius:100%;
+}
+.settings > .profile > .profile_bottom > .profile_bottom_title {
+    margin-left:12px;
+}
+.settings > .profile > .profile_bottom > .profile_bottom_title > h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.settings > .profile > .profile_bottom > .profile_bottom_title  p {
+    font-size: 14px;
+}
+
+.settings > .settings_container {
+    width:100%;
+    max-width:1200px;
+
+    padding-bottom:32px;
+    display:flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    margin:0 auto;
+}
+.settings > .settings_container > .title {
+    padding-bottom:12px;
+    
+}
+.settings > .settings_container > .title  > h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.settings > .settings_container > .description {
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+.settings > .settings_container > .description  > .description_container {
+}
+.settings > .settings_container > .description  > .description_container {
+    border-top:1px solid #2c3a43;
+}
+.settings > .settings_container > .description  > .description_container > .description_item {
+    border-top:1px solid #2c3a43;
+    display:flex;
+    align-items:center;
+    padding:12px 0;
+    font-size: 14px;
+}
+.settings > .settings_container > .description  > .description_container > .description_item > h1 {
+    color:#c7d2da;
+    display:flex;
+    font-size: 14px;
+    font-weight:bold;
+}
+.settings > .settings_container > .description  > .description_container > .description_item > .description_item_right {
+    display:flex;
+    flex-basis:auto;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.settings > .settings_container > .description  > .description_container  >.description_group {
+    display:flex;
+    align-items: center;
+}
+
+
+
+
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_item {
+    border:1px solid #2c3a43;
+    flex: 1 1;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 8px;
+    transition:.3s;
+    box-sizing:border-box;
+}
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_item-item--active {
+    border:1px solid #784ffe;
+    flex: 1 1;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 8px;
+    transition:.3s;
+    box-sizing:border-box;
+
+    
+}
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_item-item--active > h1 {
+
+    font-weight: 500;
+    transition:.3s;
+    font-size: 14px;
+}
+
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_item:not(:last-child) {
+    margin-right: 8px;
+}
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_item > h1 {
+    font-weight: 500;
+    transition:.3s;
+    font-size: 14px;
+
+}
+
+
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_input {
+      padding:0;
+      height: 45px;
+      border: 0;
+
+      flex: 1 1;
+      text-align: center;
+      cursor:pointer;
+      border-radius:8px;
+      box-sizing: border-box;
+      display:flex;
+
+}
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_input > input {
+    background:#141a1e;
+    width:100%;
+    margin-right: 0;
+    box-sizing:border-box;
+    height:45px;
+    min-width:90px;
+    color:#fff;
+    outline:0;
+    border-radius:8px;
+    padding:12px 16px;
+    font-size: 16px;
+    border:none;
+
+    line-height: normal;
+}
+.settings > .settings_container > .description  > .description_container > .description_group > .description_group_input > p {
+    cursor:auto;
+    height: 45px;
+    line-height: 45px;
+    font-size:16px;
+    font-weight: 500;
+    margin-top: 2px;
+    color:#fff;
+  
+    position:absolute;
+    right:45px;
+}
+
+
+@media screen and (min-width:1200px) {
+    .settings > .top {
+        padding:0px 32px;
+    }
+    .settings > .profile > .profile_top  {
+        padding: 32px 32px;
+    }
+    .settings > .profile > .profile_bottom {
+        padding: 0px 32px;
+    }
+   .settings > .settings_container {
+       padding:32px 32px;
+   }
+  .settings > .settings_container > .title {
+  
+  }
+   .settings > .settings_container > .description {
+   }
+}

@@ -1,0 +1,230 @@
+.Address {
+    width:100%;
+    flex: 1 1;
+}
+.Address > .title {
+    padding-bottom: 32px;
+    display:flex;
+    flex-direction: column;
+    border-bottom:1px solid #2c3a43;
+}
+.Address > .title > .container {
+    width:100%;
+    max-width:1200px;
+    box-sizing:border-box;
+    margin:0 auto;
+    max-height:56px;
+    justify-content: space-between;
+    align-items: center;
+    display:grid;
+}
+.Address > .title > .container  > h1 {
+    font-size:18px;
+    font-weight: 500;
+    overflow:hidden;
+    padding-top:22px;
+
+}
+.Address  > .center {
+    width:100%;
+    max-width: 1200px;
+    box-sizing:border-box;
+    margin:0 auto;
+}
+.Address  > .center > .watchlist {
+    margin-bottom: 64px;
+}
+.Address  > .center > .watchlist > p {
+    color:#c7d2da;
+    font-weight: 500;
+    margin: 1em 0;
+    font-size: 16px;
+}
+.Address  > .center > .watchlist  > .watchlist_bundle {
+    display:grid;
+    grid-gap: 12px;
+    margin-bottom: 32px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Address  > .center > .watchlist  > .watchlist_bundle > .watchlist_bundle-add {
+     border:1px solid #2c3a43;
+     cursor:pointer;
+
+     position:relative;
+     border-radius: 8px;
+     padding: 46px 16px 32px;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     transition:.3s;
+
+}
+
+
+.Address  > .center > .watchlist  > .watchlist_bundle > .watchlist_bundle-add > h1 {
+   background:#784ffe;
+
+   margin-top: 8px;
+   display:flex;
+   align-items: center;
+   justify-content:center;
+   height:40px;
+   width:40px;
+   border-radius:100%;
+   font-size:24px;
+   font-weight: 500;
+   color:#fff;
+   transition:.3s;
+}
+.Address  > .center > .watchlist  > .watchlist_bundle > .watchlist_bundle-add  > p {
+     margin:12px 0;
+     font-weight: 500;
+     text-align:center;
+     max-width:240px;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow:hidden;
+}
+
+.Address  > .center > .watchlist  > .watchlist_bundle  > a {
+    border:1px solid #2c3a43;
+    display:flex;
+    align-items: center;
+    border-radius:8px;
+    transition:.3s;
+    padding:12px;
+    cursor:pointer;
+}
+.Address  > .center > .watchlist  > .watchlist_bundle  > a > .wachlist_bundle_item {
+    display:flex;
+    align-items: center;
+    flex: 1 1;
+    border-radius:8px;
+    transition:.3s;
+}
+.Address  > .center > .watchlist  > .watchlist_bundle  > a > .wachlist_bundle_item > .blockie {
+    width:30px;
+    height:30px;
+    box-shadow: 0 0 0 2px #2c3a43;
+    position:relative;
+    border-radius:100%;
+    background-size:cover;
+    background-position: 50%;
+    margin-right: 12px;
+}
+.Address  > .center > .watchlist  > .watchlist_bundle  > a > .wachlist_bundle_item > h1 {
+    font-size:16px;
+    font-weight: 500;
+}
+
+.Address  > .center > .watchlist  > .watchlist_form {
+     display:grid;
+     grid-template-columns: minmax(auto,450px) max-content;
+     grid-gap:12px;
+     gap: 12px;
+     margin-bottom: 20px;
+     
+}
+.Address  > .center > .watchlist  > .watchlist_form > .watchlist_select {
+     width:100%;
+     max-width:450px;
+     flex: 1 1;
+     position:relative;
+}
+.Address  > .center > .watchlist  > .watchlist_form > .watchlist_select > .watchlist_container {
+   position:relative;
+   box-sizing:border-box;
+   background:#202a30;
+   border:none;
+   box-shadow:none;
+   border-radius:8px;
+   min-height: 40px;
+
+   align-items:center;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+   position:relative;
+   outline:none;
+}
+.Address  > .center > .watchlist  > .watchlist_form > .watchlist_select > .watchlist_container > .watchlist_container_form {
+    align-items: center;
+    display:flex;
+    flex: 1 1 0%;
+    flex-wrap:wrap;
+    padding:2px 8px 2px 40px;
+    position:relative;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+.Address  > .center > .watchlist  > .watchlist_form > .watchlist_select > .watchlist_container > .watchlist_container_form > input {
+    margin:2px;
+    padding-bottom: 2px;
+    padding-top:2px;
+    visibility: visible;
+    color:rgb(51,51,51);
+    box-sizing:border-box;
+    flex: 1 1 auto;
+    background:none;
+    border:none;
+    outline:none;
+    color:#fff;
+
+}
+.Address  > .center > .watchlist  > .watchlist_form  > button {
+    background:#784ffe;
+    color:#fff;
+
+    font-weight: 500;
+    font-size: 16px;
+    border:none;
+    height: auto;
+    outline:none;
+    padding:9px 12px;
+    border-radius:8px;
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.Address  > .center > .watchlist > .empty-state {
+    border:1px solid #2c3a43;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:8px;
+    padding:32px;
+    flex-direction:column;
+}
+.Address  > .center > .watchlist > .empty-state > .empty_state__icon {
+    background:#202a30;
+    color:#fff;
+    padding: 16px;
+    margin-bottom:16px;
+    border-radius:100%;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:56px;
+    height:56px;
+}
+.Address  > .center > .watchlist > .empty-state > span {
+  font-size: 20px;
+}
+
+@media screen and (min-width:1200px) {
+     .Address > .title {
+     }
+   
+    .Address > .title > .container {
+       padding:0px 32px;
+    }
+    .Address  > .center {
+         padding:0 32px;
+    }
+
+}

@@ -1,0 +1,343 @@
+.Quests-container {
+    width:100%;
+    padding-bottom:32px;
+    flex: 1 1;
+    max-width:890px;
+    min-height:1330px;
+    overflow-x:hidden;
+}
+
+.Quests-container > .Quest-title {
+    border-bottom:1px solid #2c3a43;
+    margin:0 auto;
+    max-width:1200px;
+}
+.Quests-container > .Quest-title > .Quest-title-container {
+    max-width:1200px;
+    width:100%;
+    max-height: 56px;
+    height:56px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    padding: 0px 32px;
+}
+.Quests-container > .Quest-title > .Quest-title-container > h1 {
+    white-space:nowrap;
+    font-size: 18px;
+    font-weight:500;
+    
+}
+
+.Quests-container > .Quest-header {
+    padding: 32px 32px;
+    border-bottom: 1px solid #2c3a43;
+   
+}
+
+.Quests-container > .Quest-header > .Quest-header-container {
+    width:100%;
+    box-sizing:border-box;
+    max-width:1200px;
+    flex-grow: 1;
+}
+.Quests-container > .Quest-header > .Quest-header-container > .mb-7 {
+   margin-bottom: 30px;
+   display:flex;
+   align-items:center;
+}
+.Quests-container > .Quest-header > .Quest-header-container > .mb-7 > .page-icon {
+    background:rgba(120,79,254,.15);
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    align-items:center;
+    justify-content: center;
+}
+
+.Quests-container > .Quest-header > .Quest-header-container > .mb-7 > .page-title > h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+.Quests-container > .Quest-header > .Quest-header-container > .mb-7 > .page-title > a {
+    transition:.3s;
+    color:#784ffe;
+    text-transform: uppercase;
+    font-size:12px;
+    font-weight: 600;
+    position: relative;
+    align-items: center;
+    display:inline-flex;
+}
+/*  rewards -body  */
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info {
+    display:flex;
+    flex-wrap: wrap;
+    grid-gap:16px 32px;
+    gap: 16px 32px;
+}
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .Quests-rewards-balance {
+   background:#202a30;
+   width:fit-content;
+   padding:12px 16px;
+   border-radius:8px;
+}
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .Quests-rewards-balance> .flex {
+    display:flex;
+    align-items: center;
+}
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .Quests-rewards-balance > .flex > .rewards-balance_item {
+   margin-right: 16px;
+}
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .Quests-rewards-balance > .flex > .rewards-balance_item:first-child {
+    margin-right: 16px;
+    border-right:1px solid #2c3a43;
+    padding-right: 16px;
+
+}
+
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .Quests-rewards-balance > .flex > .rewards-balance_item > p {
+    align-items: center;
+    display:flex;
+    color:#c7d2da;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .Quests-rewards-balance > .flex > .rewards-balance_item > .rewards-balance_item_amount {
+    font-size:24px;
+    font-weight: 500;
+    display:flex;
+    align-items: center;
+}
+
+
+
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .Quests-rewards-balance > .flex > button {
+    background:#784ffe;
+    color:#fff;
+    font-size:16px;
+    display:flex;
+    padding: 9px 12px;
+    border:none;
+    border-radius: 8px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    line-height:normal;
+    transition:.3s;
+}
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .rewrads-time > h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .rewrads-time > p:first-child {
+   color:#c7d2da;
+   font-size:14px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+.Quests-container > .Quest-header > .Quest-header-container >  .Quest-rewards-info  > .rewrads-time > p:last-child {
+   color:#c7d2da;
+   font-size: 14px;
+}
+
+/* end */
+
+
+/* body */  
+.Quests-container > .Quest-body {
+    padding:32px 0;
+    z-index: 1;
+}
+.Quests-container > .Quest-body > .Quests-Container {
+     width:100%;
+     padding: 0 32px;
+     box-sizing:border-box;
+     max-width:1200px;
+     flex-grow: 1;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px 12px;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item {
+     border:1px solid #2c3a43;
+     display:flex;
+     flex-direction: column;
+     border-radius:8px;
+     overflow:hidden;
+     box-sizing:border-box;
+     transition:.3s;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header{
+    border:1px solid #2c3a43;
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow:hidden;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header > .Quest-Card_item_header_actions {
+    position:absolute;
+    padding:12px;
+    display:flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    width:calc(100% - 24px);
+    z-index: 0;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header > .Quest-Card_item_header_actions > .block {
+    display:grid;
+    grid-auto-flow:column;
+    justify-content: center;
+    align-items: center;
+    grid-gap:8px;
+    padding-bottom:20px;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header > .Quest-Card_item_header_actions > .block > h4 {
+    color:#fff;
+    background:#202a30;
+    display:flex;
+    align-items: center;
+    font-weight: 600;
+    font-size:12px;
+    border-radius: 4px;
+    padding:8px 16px;
+    text-transform: uppercase;
+    z-index: 999;
+
+}
+/*  actions  */
+
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header >.Quest-Card_item_header_media {
+    display:flex;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header >.Quest-Card_item_header_media > img {
+    vertical-align: middle;
+}
+/* text */
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header >.Quest-Card_item_header_text {
+
+   position:relative;
+   padding:12px;
+   display:flex;
+   align-items: flex-start;
+   justify-content:space-between;
+   width:calc(100% - 24px);
+   height:-10px;
+   z-index: 1;
+   bottom:20px;
+   background:linear-gradient(0deg,#141a1e,rgba(20,26,30,0));
+
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_header >.Quest-Card_item_header_text > h4 {
+    text-align: left;
+    color:#fff;
+    font-size:20px;
+    font-weight: 600;
+}
+
+/* end */
+
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_body{
+    border:1px solid #2c3a43;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    flex-grow:1;
+    padding:12px;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_body > .Quests-Card_item_between {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;   
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_body > .Quests-Card_item_between > p  {
+    color:#c7d2da;
+    font-size: 12px;
+    text-transform:uppercase;
+    font-weight: 500;
+    margin:0;
+
+
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_body > p {
+    font-size:14px;
+    margin-bottom: 4px;
+    margin-top: 8px;
+
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_body > .Quests-Card_item_address > a {
+    color:#784ffe;
+    fill: #784ffe;
+    font-size: 10px;
+    font-weight: 600;
+  
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_body > .button-body {
+    padding-top: 50px;
+}
+.Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list > .Quest-Card_item > .Quest-Card_item_body > .button-body > button {
+    background:#784ffe;
+    color:#fff;
+    width:100%;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    height: auto;
+    padding: 9px 12px;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (min-width:1200px) {
+    .Quests-container {
+       overflow-x:hidden;
+    }
+
+    .Quests-container > .Quest-title > .Quest-title-container {
+      padding: 0 32px;
+    }
+    .Quests-container > .Quest-header {
+      margin: 0 auto;
+    }
+    .Quests-container > .Quest-header > .Quest-header-container {
+       margin: 0 auto;
+    }
+
+    .Quests-container > .Quest-body > .Quests-Container {
+       margin:0 auto;
+    }
+}
+
+@media screen and (max-width:1200px) {
+     .Quests-container {
+         overflow:hidden;
+     }
+
+     .Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list  {
+         grid-template-columns: repeat(2,1fr);
+     }
+}
+
+@media screen and (max-width: 800px) {
+    .Quests-container > .Quest-body > .Quests-Container > .Quest-Card_list {
+        grid-template-columns: repeat(1,1fr)
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .Quests-container { 
+    }
+}
+
+

@@ -1,0 +1,66 @@
+.footer {
+  width:100%;
+  color:#c7d2da;
+  border-top:1px solid #2c3a43;
+  padding:72px 0;
+  padding-top: 20px;
+  padding-bottom:30px;
+  display:block;
+  box-sizing:border-box;
+  
+
+}
+
+
+.footer > .footer-container {
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+
+     width:100%;
+     padding: 0 32px;
+     max-width:1200px;
+     box-sizing:border-box;
+     flex-grow: 1;
+    
+}
+.footer > .footer-container  > .footer_link {
+    display:flex;
+    font-size:14px;
+    margin-bottom: 8px;
+    margin-right: 16px; 
+}
+
+.footer > .footer-container > .footer_icon {
+    display:flex;
+    grid-gap:12px;
+    gap:12px;
+ 
+}
+.footer > .footer-container > .footer_icon > .footer_icon_container {
+    display:flex;
+    font-size: 14px;
+    margin-bottom: 8px;
+    grid-gap:4px;
+
+}
+
+.footer > .footer-container > .footer_icon > .footer_icon_container > .footer_icon_flex {
+    display:flex;
+    align-items: center;
+}
+.footer > .footer-container > .footer_icon > .footer_icon_container > .footer_icon_flex > .twitter {
+    color:rgb(29, 157,237);
+}
+.footer > .footer-container > .footer_icon > .footer_icon_container > .footer_icon_flex > .discord {
+    color:rgb(114,137,218);
+}
+.footer > .footer-container > .footer_icon > .footer_icon_container > .footer_icon_flex > .wechat {
+    color:#00d897;
+}
+@media screen and (min-width:1200px) {
+    .footer > .footer-container {
+    }
+}
+

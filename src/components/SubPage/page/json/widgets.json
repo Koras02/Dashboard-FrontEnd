@@ -1,0 +1,11 @@
+{
+    "id":1,
+    "title":"Widgets",
+    "TokenWatchlist": "Token Watchlist",
+    "NoToken": "No tokens added yet",
+    "Searchfor": "Search for a token and favourite it to add it to the watchlist",
+    "Network": "Network Fee",
+    "Standard": "Standard",
+    "min": "~3 min",
+    "Fast": "Fast"
+}

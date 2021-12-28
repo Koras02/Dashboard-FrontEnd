@@ -1,0 +1,220 @@
+.rewards {
+    padding:32px 32px;
+    width:100%;
+    height: 100%;
+    box-sizing:border-box;
+    max-width:1200px;
+    flex-grow: 1;
+
+}
+
+.rewards > .rewards_filters {
+   display:flex;
+   flex-flow:wrap;
+   grid-gap: 16px 32px;
+   gap: 16px 32px;
+   margin-bottom: 16px;
+}
+
+/*  left */
+.rewards > .rewards_filters > .rewards_filters_left {
+}
+
+.rewards > .rewards_filters > .rewards_filters_left > h1 {
+     color:#c7d2da;
+     margin-bottom:8px;
+     font-size:14px;
+}
+.rewards > .rewards_filters > .rewards_filters_left > .rewrads_filters_left_flex {
+    display:flex;
+    align-items:center;
+    grid-gap:8px;
+    gap:8px;
+}
+
+.rewards > .rewards_filters > .rewards_filters_left > .rewrads_filters_left_flex > button {
+     background:transparent;
+     border:1px solid #2c3a43;
+     padding: 4px 12px;
+     font-size:16px;
+     font-weight:500;
+     border-radius: 8px;
+     outline:none;
+     height: auto;
+     line-height: normal;
+}
+
+/* right */
+
+.rewards > .rewards_filters > .rewards_filters_right {
+}
+
+.rewards > .rewards_filters > .rewards_filters_right > h1 {
+    color:#c7d2da;
+    margin-bottom:8px;
+    font-size:14px;
+}
+
+.rewards > .rewards_filters > .rewards_filters_right > .rewrads_filters_left_flex {
+    display:flex;
+    align-items:center;
+    grid-gap:8px;
+    gap:8px;
+}
+
+.rewards > .rewards_filters > .rewards_filters_right > .rewrads_filters_left_flex > button {
+     background:transparent;
+     border:1px solid #2c3a43;
+     padding: 4px 12px;
+     font-size:16px;
+     font-weight:500;
+     border-radius: 8px;
+     outline:none;
+     height: auto;
+     line-height: normal;
+}
+
+
+.rewards > .rewards_items {
+    display:grid;
+    grid-gap:24px 12px;
+    grid-template-columns: repeat(3,1fr);
+}
+.rewards > .rewards_items > .rewards_items_pointer {
+    border:1px solid #2c3a43;
+    cursor:pointer;
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing:border-box;
+    transition:.3s;
+
+
+}
+
+.rewards > .rewards_items > .rewards_items_pointer:hover {
+    border:1.5px solid gray;
+    padding:0;
+    transition:.3s;
+
+}
+
+/*  card */
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card {
+    max-height:250px;
+    position:relative;
+    display:flex;
+    align-items: center;
+    width:100%;
+    overflow: hidden;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .actions  {
+    position:absolute;
+    padding:12px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: calc(100% - 24px);
+    height: calc(100% - 24px);
+    z-index: 1;
+} 
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .actions > .block {
+    position: absolute;
+    grid-auto-flow:column;
+    justify-content: center;
+    align-items: center;
+    grid-gap:8px;
+}
+
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .actions  > .absolute {
+    display:block;
+    position:absolute;
+    background:red;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .actions > .column {
+    align-items: flex-end;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .actions > .column > .block {
+    display:grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap:8px;
+    margin-bottom:8px;
+}
+
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .actions > .column > .block > .button {
+    padding: 8px;
+    background:#784ffe;
+    color:3fff;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    transition:.3s;
+}
+
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .actions > .column > .count {
+    background:#202a30;
+    padding:8px;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    font-size:12px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+/* end  */
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .media  {
+    display:flex;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .media  > img {
+    width:100%;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .media  > video {
+    width:100%;
+    object-fit:contain;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .media  > video > source {
+
+}
+
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_card > .block  {}
+
+
+/*  body */
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_body {
+    border-top: 1px solid #2c3a43;
+    flex-grow: 1; 
+    padding: 12px;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_body > .flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color:#c7d2da;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin:0;
+}
+.rewards > .rewards_items > .rewards_items_pointer > .rewards_items_body > p {
+    color:#c7d2da;
+    font-size:14px;
+    font-style: italic;
+    margin: 1em 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .rewards > .rewards_items {
+       grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rewards > .rewards_items {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+

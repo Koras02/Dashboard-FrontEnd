@@ -1,0 +1,388 @@
+.dashboard {
+    width:100%;
+    min-height: 10%;
+    padding-bottom: 392px;
+    flex: 1 1;
+}
+.dashboard > .dashboard-title {
+    border-bottom: 1px solid #2c3a43;
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    box-sizing: border-box;
+    max-height: 56px;
+    height:56px;
+    align-items: center;
+    display:flex;
+    padding:0 32px;
+}
+.dashboard > .dashboard-header {
+    border-bottom: 1px solid #2c3a43;
+    line-height: 1.35;
+    box-sizing: border-box;
+    padding: 32px 32px;
+     margin:0 auto;
+     width:100%;
+}
+.dashboard > .flex-max {
+    margin-left:12px;
+    flex: 1 1;
+}
+
+.dashboard > .dashboard-header > .dashboard-header_top {
+    display:flex;
+    margin-bottom: 32px;
+    justify-content: space-between;
+}
+
+
+/* ------------------------------------------------------------ */
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle {
+    border:1px solid #2c3a43;
+    display:flex;
+    border-radius:8px;
+    height:36px;
+}
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_item {
+    background:#202a30;
+    border-radius: 8px 0 0 8px;
+
+    display:flex;
+    align-items: center;
+    transition:.3s;
+    position:relative;
+    cursor:pointer;
+    height: 36px;
+}
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_item >  .dashboard-header_bundle_item_icon {
+   display:flex;
+   align-items: center;
+   margin-left: 12px;
+   width:20px;
+   height:20px;
+   box-shadow: 0 0 0 2px #2c3a43;
+   position:relative;
+   border-radius:100%;
+   background-size:cover;
+   background-position: 50%;
+} 
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_item > .dashboard-header_bundle_item_title {
+     padding: 8px 12px;
+     font-size: 14px;
+     font-weight: 500;
+}
+
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_account {
+    position:relative;
+    cursor:pointer;
+
+    margin-right: 0;
+    border-radius: 0 8px 8px 0;
+
+    display:flex;
+    align-items: center;
+    position: relative;
+    transition:.3s;
+    height:36px;
+}
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_account > .icon {
+    margin-left: 12px;
+    align-items:center;
+    display:flex;
+}
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_account > .flex {
+    display:flex;
+    align-items:center;
+}
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_account > .flex > .label {
+     padding: 8px 12px;
+     font-size:14px;
+     font-weight: bold;
+}
+
+.dashboard > .dashboard-header > .dashboard-header_top > .dashboard-header_bundle > .dashboard-header_bundle_account > .flex > button {
+    color:#fff;
+    background: #141a1e;
+    border:1px solid #2c3a43;
+    
+    margin-right: 8px;
+    width:28px;
+    height: 28px;
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    transition:.3s;
+    padding: 4px;
+    font-size: 16px;
+    border-radius:100%;
+}
+
+/* --------------------------- */
+
+/* ntf */
+.dashboard > .dashboard-header > .dashboard-header_net-wroth {
+    min-width:auto;
+    width: fit-content;
+    border-radius: 8px;
+    margin-bottom: 28px;
+}
+.dashboard > .dashboard-header > .dashboard-header_net-wroth > .nft_title {
+    color:#c7d2da;
+    align-items: center;
+    display:flex;
+}
+.dashboard > .dashboard-header > .dashboard-header_net-wroth > .nft_pay {
+    display:flex;
+    margin-bottom: 8px;
+    color:#fff;
+    font-size:30px;
+    font-weight: bold;
+    flex: 1 1;
+}
+.dashboard > .dashboard-header > .dashboard-header_net-wroth > .nft_edit {
+    align-items:center;
+    display:flex;
+}
+.dashboard > .dashboard-header > .dashboard-header_net-wroth > .nft_edit > .mr-2 {
+    margin-right: 8px;
+    transition:.3s;
+    
+}
+
+.dashboard > .dashboard-header > .dashboard-header_net-wroth > .nft_edit > button {
+    border:1px solid #2c3a43;
+    background:#202a30;
+    opacity:1;
+    padding:4px 16px;
+    width:fit-contnet;
+    display:flex;
+    align-items:center;
+    border-radius:8px;
+    color:#fff;
+    
+}
+
+.dashboard > .dashboard-header > .dashboard-header_tabs {
+    display:flex;
+}
+
+
+.dashboard > .dashboard-header > .dashboard-header_tabs  > .dashboard-header_tabs_item {
+    color:#c7d2da;
+    background:none;
+    padding:0px 16px;
+    min-width:100px;
+    font-weight: 500;
+    cursor:pointer;
+    border-radius:0;
+    margin-bottom: -32px;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    font-weight:600;
+    border:none;
+    font-size: 16px;
+}
+.dashboard > .dashboard-header > .dashboard-header_tabs  > .dashboard-header_tabs_item--active {
+    color:#fff;
+    background:none;
+    padding:0px 16px;
+    min-width:100px;
+    font-weight: 500;
+    cursor:pointer;
+    border-radius:0;
+    margin-bottom: -32px;
+    border-bottom:2px solid #c7d2da;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    font-size: 16px;
+    font-weight:600;
+}
+.dashboard > .dashboard-header > .dashboard-header_tabs  > .dashboard-header_tabs_item--active > button {
+    color:#fff;
+    background:none;
+    padding:0px 16px;
+    min-width:100px;
+    font-weight: 500;
+    cursor:pointer;
+    border-radius:0;
+    margin-bottom: -32px;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    font-size: 16px;
+    border:none;
+    font-weight:600;
+}
+
+.dashboard > .dashboard-bottom {
+    max-width:1200px;
+    width:100%;
+    box-sizing:border-box;
+    margin:0 auto;
+    padding: 16px ;
+    position:relative;
+    border:1px solid #fff;
+
+}
+
+
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container {
+    margin-bottom:16px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter {
+    display:flex;
+    align-items: center;
+}
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_box {
+}
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_box > .dashboard-bottom_control {
+    background:transparent;
+    border:1px solid #2c3a43;
+    display:flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_box > .dashboard-bottom_control > .dashboard-bottom_control_item--active {
+    background: #202a30;
+    padding:4px 8px;
+    cursor:pointer;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius:8px;
+    display:flex;
+    align-items: center;
+}
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_box > .dashboard-bottom_control > .dashboard-bottom_control_item--active > button {
+    
+}
+
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_box > .dashboard-bottom_control > .dashboard-bottom_control_item {
+    padding:4px 8px;
+    cursor:pointer;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius:8px;
+    display:flex;
+    align-items: center;
+}
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_dropdown {
+    background:#1a2227;
+    border:1px solid #2c3a43;
+
+    height:32px;
+    border-radius:8px;
+    transition:.3s;
+    display:flex;
+    align-items: center;
+}
+
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_dropdown  > .dashboard-bottom_dropdown_container {
+   padding: 4px 8px;
+   border-radius:8px;
+   cursor:pointer;
+   font-size: 12px;
+   font-weight: 600;
+   text-transform: uppercase;
+   display:flex;
+   align-items: center;
+} 
+
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_dropdown  > .dashboard-bottom_dropdown_container > span {
+    font-size:14px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+/*  network  */
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashboard-bottom_network {
+    display:flex;
+    align-items: center;
+}
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashboard-bottom_network > .dashboard-bottom_network_box {
+   cursor:pointer;
+    border:1px solid #2c3a43;   
+    padding:8px 12px;
+    display:flex;
+    align-items: center;
+    border-radius:8px;
+    width: fit-content;
+    text-transform: uppercase;
+
+}
+
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashboard-bottom_network > .dashboard-bottom_network_box > h1 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left:8px;
+
+}
+.dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashboard-bottom_network > .dashboard-bottom_network_toggle {
+    margin-left: 8px;
+    transition:.3s;
+    cursor: pointer;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    border:1px solid #202a30;
+    padding: 4px 8px;
+    display:flex;
+    align-items: center;
+}
+
+
+@media screen and (min-width:1200px) {
+    .dashboard > .dashboard-title {
+        padding:0px 32px;
+    }
+    .dashboard > .dashboard-header {
+        padding: 32px 32px;
+    }
+    .dashboard > .dashboard-bottom {
+        padding: 32px 32px;
+    }
+
+
+    .dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashbaord-bottom_filter > .dashboard-bottom_box {
+        display:block;
+        visibility: visible;
+    }
+
+    .dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashboard-bottom_network {
+         justify-content: flex-start;
+    }
+
+
+    .dashboard > .dashboard-bottom  > .dashboard-bottom_container > .dashboard-bottom_network > .dashboard-bottom_network_box {
+        display:flex;
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width:1480px) {
+  
+}
+
+@media screen and (max-width: 680px) {
+    .dashboard {
+      padding-bottom: 360px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard {
+      padding-bottom: 200px;
+    }
+}
